@@ -1,0 +1,52 @@
+/* * kitisuru menu */ 
+.kitisuru-picture{
+    background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c4760165c03d467b650bcb_1.jpg); 
+    background-size: cover;
+    width: 50%;
+    text-align: center;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+    position: fixed;
+}
+.actual-menu{
+    background-color: black;
+   background-size: cover;
+   width: 50%;
+   height: 100vh;
+   z-index: 1;
+   position: relative;
+   margin-left: 24cm;
+   position: fixed;
+
+}
+.main-menu{
+    display: flex;
+    /* position: relative; */
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.actual-menu{
+    display:flex;
+    text-align:right;
+    gap: 1cm;
+    text-decoration: none;
+    color: orangered;
+    padding-left: 10px;
+}
+.foodmenu{
+    z-index: 2;
+    text-decoration: none;
+    position: absolute;
+    right: 3cm;
+    color: rgb(245, 240, 240);
+    width:40% ;
+    top: 3cm;
+    list-style-type: none;
+    margin-left: 36.5cm;
+    margin-top: 1px;
+    height: 190vh;
+
+}
