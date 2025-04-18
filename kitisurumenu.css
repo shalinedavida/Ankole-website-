@@ -8,6 +8,8 @@
     z-index: 1;
     position: relative;
     position: fixed;
+    padding-top: 10cm;
+    
 }
 .actual-menu{
     background-color: black;
@@ -26,14 +28,21 @@
     font-size: 150%;
     font-family: Arial, Helvetica, sans-serif;
 
+
 }
 .actual-menu{
     display:flex;
     text-align:right;
     gap: 1cm;
-    text-decoration: none;
-    color: orangered;
+    /* text-decoration: none; */
+    /* color: orangered; */
     padding-left: 10px;
+    gap: 3cm;
+    a{
+        text-decoration: none;
+        color: coral;
+
+    }
 }
 .foodmenu{
     z-index: 2;
@@ -47,4 +56,164 @@
     margin-left: 36.5cm;
     margin-top: 1px;
     height: 190vh;
+}
+.itemsinmenu{
+    position: absolute;
+    z-index: 2;
+    margin-left: 27cm;
+    color: antiquewhite;
+}
+.ki-espresso{
+    display: flex;
+    gap: 3cm;
+}
+#ki-espressologo{
+    width: 100px;
+    height: 100px;
+}
+.ki-capucchino{
+    display: flex;
+    gap: 1cm;
+
+}
+#ki-capucchinologo{
+    width: 100px;
+    height: 100px;
+}
+.ki-mocha{
+display: flex;
+gap: 1cm;
+}
+#ki-mochalogo{
+width: 100px;
+height: 100px;
+}
+.ki-machiatto{
+display: flex;
+gap: 1cm;
+}
+#ki-machiattologo{
+    width: 100px;
+    height: 100px;
+}
+.ki-latte{
+    display: flex;
+    gap: 1cm;
+}
+#ki-lattelogo{
+    width: 100px;
+    height: 100px;
+}
+.ki-ankolebigbreakfast{
+display: flex;
+gap: 1cm;
+}
+#ki-bigbreakfastlogo{
+    width: 100px;
+    height: 100px;
+}
+#ki-crepelogo{
+    width: 100px;
+    height: 100px;
+}
+.ki-crepe{
+    display: flex;
+    gap: 1cm;
+}
+.ki-browns{
+    display: flex;
+    gap: 1cm;
+}
+#ki-brownslogo{
+    width: 100px;
+    height: 100px;
+
+}
+.ki-thai{
+display: flex;
+gap: 1cm;
+}
+#ki-thailogo{
+    width:100px ;
+    height: 100px;
+}
+.ki-keenwa{
+display: flex;
+gap: 1cm;
+}
+#ki-keenwalogo{
+    width: 100px;
+    height: 100px;
+}
+.ki-greek{
+display: flex;
+gap: 1cm;
+}
+#ki-greeklogo{
+    width: 100px;
+    height: 100px;
+}
+.ki-cob{
+display: flex;
+gap: 1cm;
+}
+#ki-coblogo{
+    width: 100px;
+    height: 100px;
+}
+.ki-salad{
+display: flex;
+gap: 1cm;
+}
+#ki-saladlogo{
+    width: 100px;
+    height: 100px;
+}
+.ki-salmon{
+    display: flex;
+    gap: 1cm;
+}
+#ki-salmonlogo{
+    width: 100px;
+    height: 100px;
+}
+.ki-mango{
+    display: flex;
+    gap: 1cm;
+}
+#ki-mangologo{
+    width: 100px;
+    height: 100px;
+}
+.ki-pineapple{
+    display: flex;
+    gap: 1cm;
+}
+#ki-pineapplelogo{
+    width: 100px;
+    height: 100px;
+}
+.ki-passion{
+    display: flex;
+    gap: 1cm;
+}
+#ki-passionlogo{
+    width: 100px;
+    height: 100px;
+}
+.ki-sugarcane{
+    display: flex;
+    gap: 1cm;
+}
+#ki-sugarcanelogo{
+    width: 100px;
+    height: 100px;
+}
+.ki-orange{
+    display: flex;
+    gap: 1cm;
+}
+#ki-orangelogo{
+    width: 100px;
+    height: 100px;
 }

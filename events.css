@@ -62,3 +62,39 @@
     font-size: 150%;
     font-family: Arial, Helvetica, sans-serif;
 }
+.eventsnav-bottom{
+    bottom: 0%;
+     position: fixed;
+     width: 43%;
+     background-color: black;
+     overflow: hidden;
+     border-radius: 43px;
+    margin-left: 30%;
+     margin-bottom: 30px;
+     height: 10%;
+     z-index: 2;
+}
+.eventsnav-bottom a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 20px;
+    font-size: 120%;
+}
+.eventsnav-bottom a:hover{
+    color: gray;
+}
+#reservations{
+    background: none;
+    background-color: gray;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#reservations:hover{
+    color: white;
+}
