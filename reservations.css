@@ -56,3 +56,49 @@
     border-radius: 20px;
     cursor: pointer;
 }
+.reservationsnav-bottom{
+    bottom: 0%;
+     position: fixed;
+     width: 40%;
+     background-color: black;
+     overflow: hidden;
+     border-radius: 43px;
+    margin-left:30%;
+     margin-bottom: 30px;
+     height: 10%;
+     z-index: 2;
+     
+}
+.reservationsnav-bottom a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 20px;
+    font-size: 120%;
+    right: 15%;
+}
+.reservationsnav-bottom a:hover{
+    color: gray;
+}
+#reservations{
+    background: none;
+    background-color: gray;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#reservations:hover{
+    color: white;
+}
+.reservationwhatsapp{
+    display: flex;
+    justify-content: right;
+    padding-top: 23cm;
+    margin-left:5cm;
+    position:absolute;
+    z-index:2;
+}

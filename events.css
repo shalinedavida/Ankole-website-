@@ -98,3 +98,11 @@
 #reservations:hover{
     color: white;
 }
+.eventswhatsapp{
+    display: flex;
+    justify-content: right;
+    padding-top: 23cm;
+    margin-left:46cm;
+    position: absolute;
+    z-index: 2;
+}

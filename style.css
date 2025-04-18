@@ -62,6 +62,13 @@
     gap: 0.5cm;
     margin-right: 20px;
 }
+.whatsapp{
+    display: flex;
+    justify-content: right;
+    padding-top: 23cm;
+    margin-right: 2cm;
+    
+}
 .kitisuru{
     width: 40%;
     background-image: url(imagesfolder/kitisuru.jpg);
@@ -126,7 +133,7 @@
      overflow: hidden;
      border-radius: 43px;
     margin-left: -29%;
-     margin-bottom: 30px;
+     /* margin-bottom: 30px; */
      height: 9%;
 }
 .menunav-bottom a{
@@ -152,4 +159,12 @@
 }
 #reservations:hover{
     color: white;
+}
+.menuwhatsapp{
+    display: flex;
+    justify-content: right;
+    padding-top: 23cm;
+    margin-left:15cm;
+    position: absolute;
+    z-index: 2;
 }
