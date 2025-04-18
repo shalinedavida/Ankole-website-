@@ -1,0 +1,58 @@
+.reservations{
+    display: flex;
+    position: relative;
+}
+.reservation-picture{
+    background-image: url("imagesfolder/ren-ran-bBiuSdck8tU-unsplash.jpg");
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+    background-size: cover;
+
+}
+.reservationhornlogo{
+    position: absolute;
+    margin-left: 20%;
+    padding-top: 110px;
+    width: 270px;
+    z-index: 2;
+}
+.karibu{
+    padding-top: 400px;
+    margin-left: 35%;
+    font-size: 200%;
+}
+
+ .reservation-words{
+    background-color: black;
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+    background-size: cover;
+} 
+
+
+.form{
+   margin: 0px 0px 40px 1000px;
+   position: absolute;
+   top: 60px;
+   color:gray;
+   z-index: 2;
+}
+.form input{
+    width: 250%;
+    padding: 18px;
+    border-color: green;
+    background-color: black;
+    color: white;
+}
+
+.form button{
+    width: 270%;
+    padding: 18px;
+    background-color: rgb(245, 203, 127);
+    border-radius: 20px;
+    cursor: pointer;
+}

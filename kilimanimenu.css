@@ -1,0 +1,115 @@
+/* kilimani menu */
+.kilimani-picture{
+    background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c4760165c03d467b650bcb_1.jpg);
+    background-size: cover;
+    width: 50%;
+    text-align: center;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+    position: fixed;
+}
+.food-menu{
+   background-color: black;
+   background-size: cover;
+   width: 50%;
+   height: 100vh;
+   z-index: 1;
+   position: fixed;
+   margin-left: 24cm;
+
+}
+.iteminmenu{
+    z-index: 2;
+    position: absolute;
+    color:white;
+    top: 3cm;
+    position:absolute ;
+    margin-top:1px ;
+    margin-left: 27cm;
+    height: 190vh;
+
+}
+.menu-main{
+    display: flex;
+    position: relative;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.espresso{
+    display: flex;
+    gap: 8cm;
+}
+.capucchino{
+    display: flex;
+    gap: 8cm;
+
+}
+.mocha{
+display: flex;
+gap: 9cm;
+}
+.machiatto{
+display: flex;
+gap: 8cm;
+}
+.latte{
+    display: flex;
+    gap: 9cm;
+}
+.ankolebigbreakfast{
+display: flex;
+gap: 1cm;
+}
+.crepe{
+    display: flex;
+    gap: 1cm;
+}
+.browns{
+    display: flex;
+    gap: 7cm;
+}
+.thai{
+display: flex;
+gap: 8cm;
+}
+.keenwa{
+display: flex;
+gap: 7cm;
+}
+.greek{
+display: flex;
+gap: 7cm;
+}
+.cob{
+display: flex;
+gap: 7cm;
+}
+.salad{
+display: flex;
+gap: 7cm;
+}
+.salmon{
+    display: flex;
+    gap: 7cm;
+}
+.mango{
+    display: flex;
+    gap: 7cm;
+}
+.pineapple{
+    display: flex;
+    gap: 7cm;
+}
+.passion{
+    display: flex;
+    gap: 7cm;
+}
+.sugarcane{
+    display: flex;
+    gap: 7cm;
+}
+.orange{
+    display: flex;
+    gap: 7cm;
+}

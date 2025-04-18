@@ -1,0 +1,107 @@
+.live{
+    background-image: url("imagesfolder/gabriel-barletta--lWcaUVJ39Y-unsplash.jpg");
+    background-size: cover;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+   
+
+}
+.firstlive img {
+    width: 20vw;
+    height: 25vh;
+    margin-left: 20cm;
+    margin-top: 1cm;
+    box-shadow: 0 16px 32px rgb(110, 106, 106);
+    border-radius: 20px;
+
+   
+
+}
+#firstlivewords{
+    display: flex;
+    color: white;
+    padding-top: 3cm;
+    font-size: 170%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.firstlive{
+    display: flex;
+    gap: 2cm;
+}
+
+.secondlive img {
+    width: 20vw;
+    height: 25vh;
+    margin-left: 20cm;
+    box-shadow: 0 16px 32px rgb(110, 106, 106);
+    border-radius: 20px;
+}  
+#secondlivewords{
+    display: flex;
+    color: white;
+    font-size: 170%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.secondlive{
+    display: flex;
+    gap: 2cm;
+}
+.thirdlive img {
+    width: 20vw;
+    height: 25vh;
+    margin-left: 20cm;
+    border-radius: 20px;
+    box-shadow: 0 16px 32px rgb(110, 106, 106);
+    
+}
+#thirdlivewords{
+    display: flex;
+    color: white;
+    font-size: 170%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thirdlive{
+    display: flex;
+    gap: 2cm;
+}
+
+.live::after{
+    background-color: rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+.fadhilee{
+    background-image: url("imagesfolder/firstlivepicture.jpg");
+    background-size: cover;
+    height: 200vh;
+    z-index: 1;
+    position: relative;
+
+}
+.muguna{
+    background-image: url("imagesfolder/thirdlivepicture.jpg");
+    background-size: cover;
+    height: 200vh;
+    z-index: 1;
+    position: relative;
+}
+.themmushrooms{
+    background-image: url("imagesfolder/secondlivepicture.jpg");
+    background-size: cover;
+    height: 200vh;
+    z-index: 1;
+    position: relative;
+}
+.livehornlogo{
+    position: absolute;
+    margin-left: 13%;
+    padding-top: 110px;
+    width: 230px;
+    z-index: 2;
+}

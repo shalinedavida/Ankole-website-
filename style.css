@@ -11,6 +11,12 @@
     height: 10%;
 
 }
+.hornlogo{
+    position: absolute;
+    margin-left: 45%;
+    padding-top: 150px;
+    width: 200px;
+}
 .landingpage{
     background-size: cover;
     background-repeat: no-repeat;
@@ -88,187 +94,27 @@
         text-decoration: none;
         cursor: pointer;
     }
+    .menuhornlogo{
+        position: absolute;
+        margin-left: 45%;
+        padding-top: 110px;
+        width: 230px;
+        z-index: 2;
+
+    }
 .menu{
     display: flex;
     position: relative;
     font-size: 150%;
     font-family: Arial, Helvetica, sans-serif;
-}
-/* .kitisuru:after{
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    z-index:1;
-} */
-/* .kilimani:after{
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    z-index: 1;
-} */
-#menukitisuru{
-    cursor: pointer;
-    background: none;
-    border: none;
-    background-color:none;
-}
-/* events */
-.events{
-    display: flex;
-    position: relative;
     
 }
-.accra{
-    width: 13%;
-    background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65d4a8fe2b90d2cc28fd4a80_accra.jpg);
-    background-size: cover;
-    padding: 200px;
-    background-position: center;
-    text-align: center;
-    position: relative;
-    height: 57vh;
-    color: white;
-    font-size: 150%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.nairobi{
-    width: 13%;
-    background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65e86d89c0ebe6000d4a549a_nairobi_pavilion_2024.jpg);
-    background-size: cover;
-    padding: 200px;
-    background-position: center;
-    text-align: center;
-    position: relative;
-    height: 57vh;
-    color: white;
-    font-size: 150%;
-    font-family: Arial, Helvetica, sans-serif;
-
-
-}
-.zanzibar{
-    width: 13%;
-    background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65d4a8fe4fa225ceb84e736c_Zanzibar.jpg);
-    background-size: cover;
-    padding: 200px;
-    background-position: center;
-    text-align: center;
-    position: relative;
-    height: 57vh;
-    color: white;
-    font-size: 150%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-/* contacts */
-.Contacts{
-    background-image:url("imagesfolder/ankolegrill-kitisuru.jpg");
-    height: 100vh;
-    position: relative;
-    background-repeat: no repeat;
-    background-size: cover;
-
-}
-.Contacts::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-
-}
-.contactswords{
-    z-index: 2;
-    position: absolute;
-    text-decoration: none;
-    text-align: center;
-    margin-left: 50px;
-
-}
-
-/* kilimani menu */
-.kilimani-picture{
-    background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c4760165c03d467b650bcb_1.jpg);
-    background-size: cover;
-    width: 50%;
-    text-align: center;
-    height: 100vh;
-    z-index: 1;
-    position: relative;
-}
-.food-menu{
-   background-color: black;
-   background-size: cover;
-   width: 50%;
-   height: 100vh;
-   z-index: 1;
-   position: relative;
-
-}
-.menu-main{
-    display: flex;
-    position: relative;
-    font-size: 150%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-/* slides */
-.slides image{
-    display: none;
-    width: 100%;
-    height:100vh;
-}
-/* Reservations */
-.reservations{
-    display: flex;
-    position: relative;
-}
-.reservation-picture{
-    background-image: url("imagesfolder/ren-ran-bBiuSdck8tU-unsplash.jpg");
-    width: 50%;
-    height: 100vh;
-    z-index: 1;
-    position: relative;
-    background-size: cover;
-
-}
- .reservation-words{
-    background-color: black;
-    width: 50%;
-    height: 100vh;
-    z-index: 1;
-    position: relative;
-    background-size: cover;
-} 
-/* Reviews */
-.reviews{
-    background-color: black;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    
-}
-
-.form{
-   margin: 0px 0px 40px 1000px;
-   position: absolute;
-   top: 60px;
-   color: antiquewhite;
-   z-index: 2;
-}
-.form input{
-    width: 250%;
-    padding: 18px;
-}
-.form button{
-    width: 270%;
-    padding: 18px;
-    background-color: orange;
+.menuicons{
+   display: flex; 
+    justify-content: right;
+    gap: 0.5cm;
+    margin-right: 15px;
+    padding-top: 5px;
+    margin-top: -40%;
+   
 }

@@ -1,0 +1,67 @@
+/* contacts */
+.contacts{
+    display: flex;
+    justify-content: center;
+    gap: 1cm;
+ 
+}  
+body{
+        background-image:url("https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+       position: relative;
+       align-items: center;
+       
+    }
+.contactsicons{
+    display:flex; 
+    justify-content:right;
+    gap: 0.5cm;
+    position: absolute;
+    right: 0;
+    top: 5%;
+
+}
+.contactshornlogo{
+    /* position: absolute; */
+        margin-left: 25%;
+        padding-top: 0px;
+        width: 230px;
+        z-index: 2;
+        /* margin-top:-13%; */
+}
+.Contactss::after{
+    content: "";
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.kitisuruaddress{
+    z-index: 2;
+    text-align: center;
+    color: white;
+    border: solid 2px;
+    border-color: antiquewhite;
+    font-size: 120%;
+     font-family:Arial, Helvetica, sans-serif ;
+     text-decoration: none;
+}
+.kilimaniaddress {
+    z-index: 2;
+    color: white;
+    border: solid 2px;
+    border-color: antiquewhite;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.kilimaniaddress a{
+    color: white;
+}
+.kitisuruaddress a{
+    color: white;
+}
