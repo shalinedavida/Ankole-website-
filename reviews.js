@@ -1,6 +1,6 @@
-const previousButton= document.querySelector(".previousButton");
+const left= document.querySelector(".previousButton");
 
-const nextButton= document.querySelector(".nextButton");
+const right= document.querySelector(".nextButton");
 
 const slider = document.querySelector(".slider");
 
@@ -28,10 +28,10 @@ const getFirstSlide = () => {
     slider.style.transform =`translateX(-${(length-1)*800}px)`;
     slideNumber=length;
  };
- nextButton.addEventListener("click",()=>{
+ right.addEventListener("click",()=>{
     slideNumber < length ? nextSlide() : getFirstSlide();
  });
- previousButton.addEventListener("click",() =>{
+ left.addEventListener("click",() =>{
     slideNumber > 1 ? prevSlide() :getLastSlide();
     changeClr()
  });

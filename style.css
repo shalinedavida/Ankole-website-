@@ -11,6 +11,9 @@
     height: 10%;
 
 }
+body{
+    margin: 0;
+}
 .hornlogo{
     position: absolute;
     margin-left: 45%;
