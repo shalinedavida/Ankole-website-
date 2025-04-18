@@ -8,6 +8,7 @@
     z-index: 1;
     position: relative;
     position: fixed;
+    padding-top: 10cm;
 }
 .food-menu{
    background-color: black;
@@ -17,6 +18,13 @@
    z-index: 1;
    position: fixed;
    margin-left: 24cm;
+   display: flex;
+   gap: 3cm;
+   
+   a{
+    text-decoration: none;
+    color: coral;
+   }
 
 }
 .iteminmenu{
@@ -38,28 +46,56 @@
 }
 .espresso{
     display: flex;
-    gap: 8cm;
+    gap: 3cm;
+}
+#espressologo{
+    width: 100px;
+    height: 100px;
 }
 .capucchino{
     display: flex;
-    gap: 8cm;
+    gap: 1cm;
 
+}
+#capucchinologo{
+    width: 100px;
+    height: 100px;
 }
 .mocha{
 display: flex;
-gap: 9cm;
+gap: 1cm;
+}
+#mochalogo{
+width: 100px;
+height: 100px;
 }
 .machiatto{
 display: flex;
-gap: 8cm;
+gap: 1cm;
+}
+#machiattologo{
+    width: 100px;
+    height: 100px;
 }
 .latte{
     display: flex;
-    gap: 9cm;
+    gap: 1cm;
+}
+#lattelogo{
+    width: 100px;
+    height: 100px;
 }
 .ankolebigbreakfast{
 display: flex;
 gap: 1cm;
+}
+#bigbreakfastlogo{
+    width: 100px;
+    height: 100px;
+}
+#crepelogo{
+    width: 100px;
+    height: 100px;
 }
 .crepe{
     display: flex;
@@ -67,49 +103,98 @@ gap: 1cm;
 }
 .browns{
     display: flex;
-    gap: 7cm;
+    gap: 1cm;
+}
+#brownslogo{
+    width: 100px;
+    height: 100px;
+
 }
 .thai{
 display: flex;
-gap: 8cm;
+gap: 1cm;
+}
+#thailogo{
+    width:100px ;
+    height: 100px;
 }
 .keenwa{
 display: flex;
-gap: 7cm;
+gap: 1cm;
+}
+#keenwalogo{
+    width: 100px;
+    height: 100px;
 }
 .greek{
 display: flex;
-gap: 7cm;
+gap: 1cm;
+}
+#greeklogo{
+    width: 100px;
+    height: 100px;
 }
 .cob{
 display: flex;
-gap: 7cm;
+gap: 1cm;
+}
+#coblogo{
+    width: 100px;
+    height: 100px;
 }
 .salad{
 display: flex;
-gap: 7cm;
+gap: 1cm;
+}
+#saladlogo{
+    width: 100px;
+    height: 100px;
 }
 .salmon{
     display: flex;
-    gap: 7cm;
+    gap: 1cm;
+}
+#salmonlogo{
+    width: 100px;
+    height: 100px;
 }
 .mango{
     display: flex;
-    gap: 7cm;
+    gap: 1cm;
+}
+#mangologo{
+    width: 100px;
+    height: 100px;
 }
 .pineapple{
     display: flex;
-    gap: 7cm;
+    gap: 1cm;
+}
+#pineapplelogo{
+    width: 100px;
+    height: 100px;
 }
 .passion{
     display: flex;
-    gap: 7cm;
+    gap: 1cm;
+}
+#passionlogo{
+    width: 100px;
+    height: 100px;
 }
 .sugarcane{
     display: flex;
-    gap: 7cm;
+    gap: 1cm;
+}
+#sugarcanelogo{
+    width: 100px;
+    height: 100px;
 }
 .orange{
     display: flex;
-    gap: 7cm;
+    gap: 1cm;
+}
+#orangelogo{
+    width: 100px;
+    height: 100px;
 }
