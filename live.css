@@ -4,6 +4,7 @@
     height: 100vh;
     z-index: 1;
     position: relative;
+    display: block; 
    
 
 }
@@ -14,8 +15,6 @@
     margin-top: 1cm;
     box-shadow: 0 16px 32px rgb(110, 106, 106);
     border-radius: 20px;
-  
-
 
 }
 
@@ -47,7 +46,7 @@ display: flex;
 }  
 #secondlivewords{
     display: flex;
-    color: white;
+    color:antiquewhite;
     font-size: 170%;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -68,7 +67,7 @@ display: flex;
 }
 #thirdlivewords{
     display: flex;
-    color: white;
+    color:antiquewhite;
     font-size: 170%;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -250,7 +249,7 @@ display: flex;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 25px;
     text-decoration: none;
     font-size: 17px;
     margin-top: 20px;
@@ -268,4 +267,276 @@ display: flex;
 }
 #reservations:hover{
     color: white;
+}
+@media only screen and (max-width: 400px) and (min-width: 0px){
+    .live{
+        background-image: url("imagesfolder/gabriel-barletta--lWcaUVJ39Y-unsplash.jpg");
+        background-size: cover;
+        height: 100vh;
+        z-index: 1;
+        position: relative;
+        display: block;  
+    
+    }
+    .firstlive img {
+        width: 20vw;
+        height: 25vh;
+        margin-left: 20cm;
+        margin-top: 1cm;
+        box-shadow: 0 16px 32px rgb(110, 106, 106);
+        border-radius: 20px;      
+    
+    }
+    
+    .firstlive{
+        display: flex;
+        gap: 2cm;
+        padding-top: 0%;
+    }
+    .firstlive a{
+        text-decoration: none;
+        color: coral;
+        font-size: 170%;
+    }
+    #fadhileelives{
+    padding-top: 2cm;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    }
+    #date{
+        padding-top: 1cm;
+    }
+    
+    .secondlive img {
+        width: 20vw;
+        height: 25vh;
+        margin-left: 20cm;
+        box-shadow: 0 16px 32px rgb(110, 106, 106);
+        border-radius: 20px;
+    }  
+    #secondlivewords{
+        display: flex;
+        color:antiquewhite;
+        font-size: 170%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .secondlive{
+        display: flex;
+        gap: 2cm;
+    }
+    .secondlive a{
+        text-decoration: none;
+    }
+    .thirdlive img {
+        width: 20vw;
+        height: 25vh;
+        margin-left: 20cm;
+        border-radius: 20px;
+        box-shadow: 0 16px 32px rgb(110, 106, 106);
+        
+    }
+    #thirdlivewords{
+        display: flex;
+        color:antiquewhite;
+        font-size: 170%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .thirdlive{
+        display: flex;
+        gap: 2cm;
+    }
+    .thirdlive a{
+        text-decoration: none;
+    }
+    
+    .live::after{
+        background-color: rgb(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .fadhilee{
+        background-image: url("imagesfolder/firstlivepicture.jpg");
+        background-size: cover;
+        height: 200vh;
+        z-index: 1;
+        position: relative;
+    
+    }
+    
+    .fadhileenav-bottom{
+        bottom: 0%;
+         position: fixed;
+         width: 43%;
+         background-color: black;
+         overflow: hidden;
+         border-radius: 43px;
+        margin-left: 30%;
+         margin-bottom: 30px;
+         height: 10%;
+         z-index: 2;
+    }
+    .fadhileenav-bottom a{
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        margin-top: 20px;
+        font-size: 120%;
+    }
+    .fadhileenav-bottom a:hover{
+        color: gray;
+    }
+    #reservations{
+        background: none;
+        background-color: gray;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    #reservations:hover{
+        color: white;
+    }
+    .muguna{
+        background-image: url("imagesfolder/thirdlivepicture.jpg");
+        background-size: cover;
+        height: 200vh;
+        z-index: 1;
+        position: relative;
+    }
+    .mugunanav-bottom{
+        bottom: 0%;
+         position: fixed;
+         width: 43%;
+         background-color: black;
+         overflow: hidden;
+         border-radius: 43px;
+        margin-left: 30%;
+         margin-bottom: 30px;
+         height: 10%;
+         z-index: 2;
+    }
+    .mugunanav-bottom a{
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        margin-top: 20px;
+        font-size: 120%;
+    }
+    .mugunanav-bottom a:hover{
+        color: gray;
+    }
+    #reservations{
+        background: none;
+        background-color: gray;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    #reservations:hover{
+        color: white;
+    }
+    .themmushrooms{
+        background-image: url("imagesfolder/secondlivepicture.jpg");
+        background-size: cover;
+        height: 200vh;
+        z-index: 1;
+        position: relative;
+    }
+    .themmushroomsnav-bottom{
+        bottom: 0%;
+         position: fixed;
+         width: 43%;
+         background-color: black;
+         overflow: hidden;
+         border-radius: 43px;
+        margin-left: 30%;
+         margin-bottom: 30px;
+         height: 10%;
+         z-index: 2;
+    }
+    .themmushroomsnav-bottom a{
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        margin-top: 20px;
+        font-size: 120%;
+    }
+    .themmushroomsnav-bottom a:hover{
+        color: gray;
+    }
+    #reservations{
+        background: none;
+        background-color: gray;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    #reservations:hover{
+        color: white;
+    }
+    .livehornlogo{
+        position: absolute;
+        margin-left: 13%;
+        padding-top: 60px;
+        width: 70px;
+        z-index: 2;
+    }
+    .tukatike{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 150%;
+        padding-left: 1.6cm;
+        
+    }
+    .livenav-bottom{
+        bottom: 0%;
+         position: fixed;
+         width: 95%;
+         background-color: black;
+         overflow: hidden;
+         border-radius: 43px;
+         margin-left: 0%;
+         margin-bottom: 20px;
+         height: 7%;
+         z-index: 2;
+    }
+    .livenav-bottom a{
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 2px 9px;
+        text-decoration: none;
+        font-size: 17px;
+        margin-top: 20px;
+        font-size: 50%;
+    }
+    .livenav-bottom a:hover{
+        color: gray;
+    }
+    #reservations{
+        background: none;
+        background-color: gray;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    #reservations:hover{
+        color: white;
+    }
+
 }

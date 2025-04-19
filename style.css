@@ -2,7 +2,7 @@
 .nav-bottom{
    bottom: 0%;
     position: fixed;
-    width: 40%;
+    width: 45%;
     background-color: black;
     overflow: hidden;
     border-radius: 43px;
@@ -72,6 +72,7 @@ body{
     margin-right: 2cm;
     
 }
+/* Menu */
 .kitisuru{
     width: 40%;
     background-image: url(imagesfolder/kitisuru.jpg);
@@ -118,6 +119,19 @@ body{
     font-size: 150%;
     font-family: Arial, Helvetica, sans-serif;
     
+}
+#karibukili{
+    color: coral;
+}
+#kiliheading{
+    font-size: 200%;
+}
+#karibukiti{
+    color: coral;
+
+}
+#kitiheading{
+    font-size: 200%;
 }
 .menuicons{
    display: flex; 
@@ -170,4 +184,119 @@ body{
     margin-left:15cm;
     position: absolute;
     z-index: 2;
+}
+/* Menu Page */
+@media only screen and (max-width: 800px) and (min-width: 0px){
+    .kitisuru{
+        width: 40%;
+        background-image: url(imagesfolder/kitisuru.jpg);
+        background-size: cover;
+        padding: 200px;
+        background-position: center;
+        text-align: center;
+        position: relative;
+        height: 57vh;
+        
+    }
+    .kilimani{
+        position: relative;
+         background-image: url(imagesfolder/kilimani.jpg); 
+        background-size: cover;
+        text-align: center;
+        padding: 200px;
+        background-position: center;
+        height: 57vh;
+        width: 40%;
+        }
+        .kilimani a{
+             color: white; 
+            text-decoration: none;
+            cursor: pointer;
+    
+        }
+        .kitisuru a{
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        #karibukili{
+            color: coral;
+        }
+        #kiliheading{
+            font-size: 200%;
+        }
+        #karibukiti{
+            color: coral;
+        
+        }
+        #kitiheading{
+            font-size: 200%;
+        }
+        .menuhornlogo{
+            position: absolute;
+            margin-left: 45%;
+            padding-top: 110px;
+            width: 230px;
+            z-index: 2;
+    
+        }
+    .menu{
+        display: flex;
+        position: relative;
+        font-size: 150%;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .menuicons{
+       display: flex; 
+        justify-content: right;
+        gap: 0.5cm;
+        margin-right: 15px;
+        padding-top: 5px;
+        margin-top: -40%;
+       
+    }
+    .menunav-bottom{
+        bottom: 0%;
+         position: fixed;
+         width: 60%;
+         background-color: black;
+         overflow: hidden;
+         border-radius: 43px;
+        margin-left: -29%;
+         /* margin-bottom: 30px; */
+         height: 9%;
+    }
+    .menunav-bottom a{
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        margin-top: 20px;
+        font-size: 90%;
+    }
+    .menunav-bottom a:hover{
+        color: gray;
+    }
+    #reservations{
+        background: none;
+        background-color: gray;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    #reservations:hover{
+        color: white;
+    }
+    .menuwhatsapp{
+        display: flex;
+        justify-content: right;
+        padding-top: 23cm;
+        margin-left:15cm;
+        position: absolute;
+        z-index: 2;
+    }
 }

@@ -79,7 +79,7 @@ body{
     padding: 3%;
     padding-left: 140px;
     padding-top: 10cm;
-    /* position: absolute; */
+  
 }
 .slide p{
     text-align: center;
@@ -99,4 +99,40 @@ body{
     position: absolute;
     right: 0.5cm;
     top: 2%;
+}
+.reviewsnav-bottom{
+    bottom: 0%;
+     position: fixed;
+     width: 60%;
+     background-color: black;
+     overflow: hidden;
+     border-radius: 43px;
+    margin-left: -29%;
+     /* margin-bottom: 30px; */
+     height: 9%;
+     position: absolute;
+}
+.reviewsnav-bottom a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 20px;
+    font-size: 90%;
+}
+.reviewsnav-bottom a:hover{
+    color: gray;
+}
+#reservations{
+    background: none;
+    background-color: gray;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#reservations:hover{
+    color: white;
 }

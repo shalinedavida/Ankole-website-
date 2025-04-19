@@ -45,7 +45,7 @@
 }
 .espresso{
     display: flex;
-    gap: 3cm;
+    gap: 2cm;
 }
 #espressologo{
     width: 100px;
@@ -53,7 +53,7 @@
 }
 .capucchino{
     display: flex;
-    gap: 1cm;
+    gap: 2cm;
 
 }
 #capucchinologo{
@@ -62,7 +62,7 @@
 }
 .mocha{
 display: flex;
-gap: 1cm;
+gap: 2cm;
 }
 #mochalogo{
 width: 100px;
@@ -70,7 +70,7 @@ height: 100px;
 }
 .machiatto{
 display: flex;
-gap: 1cm;
+gap: 2cm;
 }
 #machiattologo{
     width: 100px;
@@ -78,7 +78,7 @@ gap: 1cm;
 }
 .latte{
     display: flex;
-    gap: 1cm;
+    gap: 2cm;
 }
 #lattelogo{
     width: 100px;
@@ -86,7 +86,7 @@ gap: 1cm;
 }
 .ankolebigbreakfast{
 display: flex;
-gap: 1cm;
+gap: 2cm;
 }
 #bigbreakfastlogo{
     width: 100px;
@@ -98,11 +98,11 @@ gap: 1cm;
 }
 .crepe{
     display: flex;
-    gap: 1cm;
+    gap: 2cm;
 }
 .browns{
     display: flex;
-    gap: 1cm;
+    gap: 2cm;
 }
 #brownslogo{
     width: 100px;
@@ -111,7 +111,7 @@ gap: 1cm;
 }
 .thai{
 display: flex;
-gap: 1cm;
+gap: 2cm;
 }
 #thailogo{
     width:100px ;
@@ -119,7 +119,7 @@ gap: 1cm;
 }
 .keenwa{
 display: flex;
-gap: 1cm;
+gap: 2cm;
 }
 #keenwalogo{
     width: 100px;
@@ -127,7 +127,7 @@ gap: 1cm;
 }
 .greek{
 display: flex;
-gap: 1cm;
+gap: 2cm;
 }
 #greeklogo{
     width: 100px;
@@ -135,7 +135,7 @@ gap: 1cm;
 }
 .cob{
 display: flex;
-gap: 1cm;
+gap: 2cm;
 }
 #coblogo{
     width: 100px;
@@ -143,7 +143,7 @@ gap: 1cm;
 }
 .salad{
 display: flex;
-gap: 1cm;
+gap: 2cm;
 }
 #saladlogo{
     width: 100px;
@@ -151,7 +151,7 @@ gap: 1cm;
 }
 .salmon{
     display: flex;
-    gap: 1cm;
+    gap: 2cm;
 }
 #salmonlogo{
     width: 100px;
@@ -159,7 +159,7 @@ gap: 1cm;
 }
 .mango{
     display: flex;
-    gap: 1cm;
+    gap: 2cm;
 }
 #mangologo{
     width: 100px;
@@ -167,7 +167,7 @@ gap: 1cm;
 }
 .pineapple{
     display: flex;
-    gap: 1cm;
+    gap: 2cm;
 }
 #pineapplelogo{
     width: 100px;
@@ -175,7 +175,7 @@ gap: 1cm;
 }
 .passion{
     display: flex;
-    gap: 1cm;
+    gap: 2cm;
 }
 #passionlogo{
     width: 100px;
@@ -183,7 +183,7 @@ gap: 1cm;
 }
 .sugarcane{
     display: flex;
-    gap: 1cm;
+    gap: 2cm;
 }
 #sugarcanelogo{
     width: 100px;
@@ -191,9 +191,48 @@ gap: 1cm;
 }
 .orange{
     display: flex;
-    gap: 1cm;
+    gap: 2cm;
 }
 #orangelogo{
     width: 100px;
     height: 100px;
+}
+#tea{
+    color: coral;
+}
+.kilimaninav-bottom{
+    bottom: 0%;
+     position: fixed;
+     width: 43%;
+     background-color: black;
+     overflow: hidden;
+     border-radius: 43px;
+    margin-left: 3%;
+     margin-bottom: 30px;
+     height: 10%;
+     z-index: 2;
+}
+.kilimaninav-bottom a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 20px;
+    font-size: 120%;
+}
+.kilimaninav-bottom a:hover{
+    color: gray;
+}
+#reservations{
+    background: none;
+    background-color: gray;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#reservations:hover{
+    color: white;
 }
