@@ -418,3 +418,85 @@ body{
     z-index: 2;
 }
 }
+/* Home Bar */
+@media only screen and (max-width:800px) and (min-width:0px){
+.nav-bottom{
+    bottom: 0%;
+     position: fixed;
+     width: 80%;
+     background-color: black;
+     overflow: hidden;
+     border-radius: 43px;
+     margin-left: 8%;
+     margin-bottom: 30px;
+     height: 10%;
+ 
+ }
+ #welcome{
+     font-size: 650%;
+     color: gray;
+     
+ 
+ }
+ body{
+     margin: 0;
+ }
+ .hornlogo{
+     position: absolute;
+     margin-left: 25%;
+     padding-top: 150px;
+     width: 200px;
+ }
+ .landingpage{
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 100vw;
+     height: 100vh;
+     animation: landingpage 20s ease-in infinite;
+ }
+ @keyframes landingpage{
+     0%{background-image: url("imagesfolder/firstslide.jpg");}
+     33%{background-image: url("imagesfolder/secondslide.jpg");}
+     66%{background-image: url("imagesfolder/thirdslide.jpg");}
+     100%{background-image: url("imagesfolder/firstslide.jpg");}
+     /* 80%{background-image: url("imagesfolder/https://files.slack.com/files-pri/T08BR1M9D6V-F08NCPRS1FU/anokle_it_self.jpg");} */
+    /* 100%{background-image: url("imagesfolder/firstslide.jpg");} */
+ }
+ .nav-bottom a{
+     float: left;
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 8px;
+     text-decoration: none;
+     font-size: 17px;
+     margin-top: 20px;
+     font-size: 120%;
+ }
+ .nav-bottom a:hover{
+     color: gray;
+ }
+ #reservations{
+     background: none;
+     background-color: gray;
+     border: none;
+     border-radius: 30px;
+     cursor: pointer;
+ }
+ #reservations:hover{
+     color: white;
+ }
+ .icons{
+     display: flex;
+     justify-content: right;
+     gap: 0.5cm;
+     margin-right: 20px;
+ }
+ .whatsapp{
+     display: flex;
+     justify-content: right;
+     padding-top: 20cm;
+     margin-right: 1cm;
+     
+ }
+}

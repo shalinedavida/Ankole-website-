@@ -103,14 +103,15 @@ body{
 .reviewsnav-bottom{
     bottom: 0%;
      position: fixed;
-     width: 60%;
+     width: 100%;
      background-color: black;
      overflow: hidden;
      border-radius: 43px;
-    margin-left: -29%;
+    margin-left: 25%;
      /* margin-bottom: 30px; */
      height: 9%;
      position: absolute;
+     z-index: 2;
 }
 .reviewsnav-bottom a{
     float: left;
