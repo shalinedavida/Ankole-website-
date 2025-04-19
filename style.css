@@ -11,12 +11,18 @@
     height: 10%;
 
 }
+#welcome{
+    font-size: 650%;
+    color: gray;
+    
+
+}
 body{
     margin: 0;
 }
 .hornlogo{
     position: absolute;
-    margin-left: 45%;
+    margin-left: 40%;
     padding-top: 150px;
     width: 200px;
 }
@@ -301,14 +307,14 @@ body{
 
 @media only screen and (max-width: 400px) and (min-width: 0px){
 .kitisuru{
-    width: 40%;
+    width: 48%;
     background-image: url(imagesfolder/kitisuru.jpg);
     background-size: cover;
-    padding: 200px;
+    padding: 108px;
     background-position: center;
     text-align: center;
     position: relative;
-    height: 57vh;
+    height: 72vh;
     
 }
 .kilimani{
@@ -316,10 +322,10 @@ body{
      background-image: url(imagesfolder/kilimani.jpg); 
     background-size: cover;
     text-align: center;
-    padding: 200px;
+    padding: 108px;
     background-position: center;
-    height: 57vh;
-    width: 40%;
+    height: 72vh;
+    width: 48%;
     }
     .kilimani a{
          color: white; 
@@ -334,14 +340,14 @@ body{
     }
     .menuhornlogo{
         position: absolute;
-        margin-left: 45%;
-        padding-top: 110px;
+        margin-left: 20%;
+        padding-top: 10px;
         width: 230px;
         z-index: 2;
 
     }
 .menu{
-    display: flex;
+    display: block;
     position: relative;
     font-size: 150%;
     font-family: Arial, Helvetica, sans-serif;
@@ -372,12 +378,11 @@ body{
 .menunav-bottom{
     bottom: 0%;
      position: fixed;
-     width: 60%;
+     width: 95%;
      background-color: black;
      overflow: hidden;
      border-radius: 43px;
-    margin-left: -29%;
-     /* margin-bottom: 30px; */
+    margin-left: -27%;
      height: 9%;
 }
 .menunav-bottom a{
@@ -385,11 +390,11 @@ body{
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 10px;
     text-decoration: none;
     font-size: 17px;
     margin-top: 20px;
-    font-size: 90%;
+    font-size: 5%;
 }
 .menunav-bottom a:hover{
     color: gray;
@@ -407,8 +412,8 @@ body{
 .menuwhatsapp{
     display: flex;
     justify-content: right;
-    padding-top: 23cm;
-    margin-left:15cm;
+    padding-top: 15cm;
+    margin-left:5cm;
     position: absolute;
     z-index: 2;
 }
