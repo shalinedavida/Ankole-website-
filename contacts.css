@@ -237,3 +237,123 @@ body{
     }
    
 }
+@media only screen and (max-width: 800px) and (min-width: 0px){
+    .contacts{
+        display: block;
+        justify-content: center;
+        gap: 1cm;
+     
+    }  
+    body{
+            background-image:url("https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            background-repeat: no-repeat;
+            background-size: cover;
+    
+           position: relative;
+           align-items: center;
+           height: 98vh;
+           
+        }
+    .contactsicons{
+        display:flex; 
+        justify-content:right;
+        gap: 0.5cm;
+        position: absolute;
+        right: 0;
+        top: 5%;
+    
+    }
+    .contactshornlogo{
+        /* position: absolute; */
+            margin-left: 10%;
+            padding-top: 0px;
+            width: 200px;
+            z-index: 2;
+            padding-right:1cm;
+            /* margin-top:-13%; */
+    }
+    .Contactss::after{
+        content: "";
+        /* position: absolute; */
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+    .kitisuruaddress{
+        z-index: 2;
+        text-align: center;
+        color: white;
+        border: solid 2px;
+        border-color: antiquewhite;
+        font-size: 100%;
+         font-family:Arial, Helvetica, sans-serif ;
+        margin-left: 30%;
+         width: 300px;
+    }
+    .kilimaniaddress {
+        z-index: 2;
+        color: white;
+        border: solid 2px;
+        border-color: antiquewhite;
+        font-size: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        width: 300px;
+        margin-left: 30%;
+    }
+    .kilimaniaddress a{
+        color: white;
+        text-decoration: none;
+    }
+    .kitisuruaddress a{
+        color: white;
+        text-decoration: none;
+    }
+    .contactsnav-bottom{
+        bottom: 0%;
+         position: fixed;
+         width: 90%;
+         background-color: black;
+         overflow: hidden;
+         border-radius: 43px;
+        margin-left: 3%;
+         margin-bottom: 30px;
+         height: 10%;
+         z-index: 2;
+    }
+    .contactsnav-bottom a{
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px 12px;
+        text-decoration: none;
+        font-size: 17px;
+        margin-top: 20px;
+        font-size: 100%;
+    }
+    .contactsnav-bottom a:hover{
+        color: gray;
+    }
+    #reservations{
+        background: none;
+        background-color: gray;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    #reservations:hover{
+        color: white;
+    }
+    .contactswhatsapp{
+            display: flex;
+            justify-content: right;
+            padding-top: 14cm;
+            margin-left:19cm;
+             position: absolute; 
+             z-index: 3;
+          
+    }   
+}
